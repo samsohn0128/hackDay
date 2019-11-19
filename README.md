@@ -18,3 +18,7 @@ Toy SmartHome Extension &amp; Device
   * json 활용법 숙지
 * MySQL
   * Device의 상태를 저장하기위한 저장소로 mySql을 사용
+
+* Env
+  * server Dashboard : https://www.ncloud.com/nsa/toyhome (ID:toyHome PW: toyHomeExt1!)
+  * server 접속 : ssh root@106.10.59.45 -p 1024 (PW: toyHomeExt1!)
