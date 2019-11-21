@@ -22,3 +22,11 @@ Toy SmartHome Extension &amp; Device
 * Env
   * server Dashboard : https://www.ncloud.com/nsa/toyhome (ID:toyHome PW: toyHomeExt1!)
   * server 접속 : ssh root@106.10.59.45 -p 1024 (PW: toyHomeExt1!)
+
+* Test request
+```json
+  curl --header "Content-Type: application/json" \
+   --request POST \
+   --data '{"username":"xyz","password":"xyz"}' \
+   http://localhost:8080/ 
+```
