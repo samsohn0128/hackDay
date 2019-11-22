@@ -8,7 +8,7 @@ type Appliance struct {
 
 type RequestPayload struct {
 	AccessToken string    `json:"accessToken"`
-	Appliances  Appliance `json:"appliance"`
+	Appliance   Appliance `json:"appliance"`
 }
 
 type Payload struct {

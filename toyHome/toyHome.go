@@ -63,4 +63,4 @@ func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	//fmt.Fprintf(w, "Data: %+v", p)
 }
 
-//curl --header "Content-Type: application/json" --request POST --data "@discovery.json" http://localhost:8080/xqqqqqq
+//curl --header "Content-Type: application/json" --request POST --data "@discovery.json" http://localhost:8080/
