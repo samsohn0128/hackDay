@@ -1,0 +1,11 @@
+{
+  "header": {
+    "messageId": "8ddd7f05-7703-4cb4-a6dd-93c209c6647b",
+    "name": "DiscoverAppliancesRequest",
+    "namespace": "ClovaHome",
+    "payloadVersion": "1.0"
+  },
+  "payload": {
+    "accessToken": "92ebcb67fe33"
+  }
+}
