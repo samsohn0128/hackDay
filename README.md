@@ -25,8 +25,11 @@ Toy SmartHome Extension &amp; Device
 
 * Test request
 ```json
-  curl --header "Content-Type: application/json" \
-   --request POST \
-   --data '{"username":"xyz","password":"xyz"}' \
-   http://localhost:8080/ 
+curl --header "Content-Type: application/json" --request POST --data "@discovery.json" http://localhost:8080/
 ```
+* TODO
+    * device server
+    * OAuth server (access token)
+    * MySQL db
+    * request response
+    

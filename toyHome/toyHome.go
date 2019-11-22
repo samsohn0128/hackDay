@@ -53,14 +53,13 @@ func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	case HeaderNameRequest:
 		res.Head.Name = "TurnOnConfirmation"
 		res.Payload, err = api.ResponseRequest(p.Payload)
-		//TODO: Not implement yet
+		if err != nil{
+			http.Error(w, err.Error(), http.StatusBadRequest)
+			return
+		}
 	}
 
 	out, _ := json.Marshal(res)
-	// Do something with the Person struct...
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(out)
-	//fmt.Fprintf(w, "Data: %+v", p)
 }
-
-//curl --header "Content-Type: application/json" --request POST --data "@discovery.json" http://localhost:8080/
