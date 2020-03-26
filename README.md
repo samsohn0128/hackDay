@@ -32,4 +32,9 @@ curl --header "Content-Type: application/json" --request POST --data "@discovery
     * OAuth server (access token)
     * MySQL db
     * request response
+* Book
+    * TDD
+    * gitBook
+    * clean code
+    * refactoring
     
